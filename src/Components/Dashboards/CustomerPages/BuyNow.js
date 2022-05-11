@@ -13,7 +13,7 @@ export function BuyNow(){
     const getData = () =>{
         let token=JSON.parse(window.localStorage.getItem('Token'))
         console.log(params.itemid)
-        axios.get("http://localhost:9087/customer/item/"+params.itemid , {
+        axios.get(base_url+"/customer/item/"+params.itemid , {
             headers: {'Authorization' : 'Bearer '+token,
                 'Access-Control-Allow-Origin': '*'}
         })
@@ -25,7 +25,7 @@ export function BuyNow(){
                 console.log(err)
             })
 
-        axios.get("http://localhost:9087/customer/viewaddress/"+params.userid, {
+        axios.get(base_url+"/customer/viewaddress/"+params.userid, {
             headers: {'Authorization' : 'Bearer '+token,
                 'Access-Control-Allow-Origin': '*'}
         })
