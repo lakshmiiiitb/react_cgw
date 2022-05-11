@@ -94,7 +94,7 @@ li a:hover {
   color: #3498db;
   font-size: 1.5em;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-  text-transform: uppercase;
+
 }
 
 * {
@@ -115,7 +115,7 @@ li a:hover {
 .b{
   position: relative;
   width: 100px;
-  height: 700px;
+  height: 850px;
 }
 
 .btn_cls {
@@ -134,10 +134,33 @@ li a:hover {
   cursor: pointer;
   border: 1px solid #111111;
   background-color: transparent;
-  height: 300px;
-  width: 700px;
-  color: #3498db;
+  height: 500px;
+  width: 300px;
   font-size: 1px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  font-family:Courier;
+}
+.logoutLblPos{
+
+  height: 60px;
+  width: 150px;
+  background-color: transparent;
+  position:fixed;
+  right:100px;
+  top:105px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+
+}
+
+.logoutLblPosition{
+  cursor: pointer;
+  height: 60px;
+  width: 200px;
+  background-color: transparent;
+  position:fixed;
+  right:100px;
+  top:45px;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
 }
@@ -147,11 +170,83 @@ li a:hover {
   border: 1px solid #111111;
   background-color: transparent;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-
+  height: 40px;
+  width: 160px;
+  font-family:Courier;
 }
 
 .photo {
   height: 200px;
   width: 200px;
 
+}
+
+.buynow {
+  cursor: pointer;
+  border: 1px solid #111111;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  height: 70px;
+  width: 260px;
+  font-family:Courier;
+}
+
+.btn_class_profile {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  height: 400px;
+  width: 200px;
+  font-size: 1px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  font-family:Courier;
+
+}
+
+.btn_class_view {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  height: 400px;
+  width: 300px;
+  font-size: 1px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  font-family:Courier;
+
+}
+
+.desc_class {
+  cursor: pointer;
+  border: 1px solid #111111;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  height: 50px;
+  width: 100px;
+  font-family:Courier;
+
+}
+
+.desc_logout {
+  cursor: pointer;
+  border: 1px solid #111111;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  height: 40px;
+  width: 160px;
+  font-family:Courier;
+  right:100px;
+  top:45px;
+}
+
+.btn_class_del {
+  cursor: pointer;
+  border: 1px solid #111111;
+  background-color: Lavendar;
+  height: 500px;
+  width: 300px;
+  font-size: 1px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  font-family:Courier;
 }

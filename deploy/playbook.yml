@@ -1,0 +1,12 @@
+---
+- name: Pull docker image
+  hosts: all
+  tasks:
+    - name: Pull spring image
+      docker_image:
+        name: lakshmihegdeiiitb/frontend_react
+        source: pull
+    - name: Pull react image
+      docker_image:
+        name: lakshmihegdeiiitb/backend
+        source: pull
