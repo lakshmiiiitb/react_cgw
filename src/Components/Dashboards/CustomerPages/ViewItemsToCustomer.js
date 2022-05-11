@@ -40,7 +40,12 @@ export function ViewItemsToCustomer(){
     }
 
     const goToBuyPage=(e)=>{
+        e.preventDefault()
+        console.log("userid" + params.userid)
+        console.log("itemid "+e.target.id)
+        console.log("qty: "+selectedItems.qty)
         navigate("/buynow/"+params.userid+"/"+e.target.name+"/"+selectedItems.qty)
+        e.propertyIsEnumerable()
     }
 
     const getData = () =>{
@@ -86,7 +91,7 @@ export function ViewItemsToCustomer(){
                                         id={item.partner.id} onClick={addItemToCart}>Cart
                                 </button><snap style={{ marginLeft: "60px" }}>
                                 <button className="desc_class" name={item.id}
-                                        id={item.partner.id} onClick={goToBuyPage}>Buy
+                                         onClick={goToBuyPage}>Buy
                                 </button></snap>
                             </h1><br/><br/><br/>
 
